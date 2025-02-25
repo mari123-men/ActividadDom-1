@@ -1,8 +1,12 @@
 let text = "Bienvenido a tu Mini Manual de Prácticas de Estudio para Informática"
 document.getElementById("contenido").innerHTML = text
 
-const para = document.createElement("p");
-para.innerHTML = "Aqui te enseñaremos a como sobrebibir las clases de informatica congit";
+function init() {
+    const title = document.createElement('h1');
+    title.textContent = 'Mini Manual de Prácticas de Estudio Para Sobrebibir Las Clases Del Teacher Irvin';
+    contenido.appendChild(title);
 
-document.getElementById("contenido").appendChild(para);
-console.log('hola')
+}
+init();
+const para = document.createElement("p");
+para.innerHTML = "Siempre esperen cualquier cosa cualquier actividad, siempre anota cualquier cosa importante";
